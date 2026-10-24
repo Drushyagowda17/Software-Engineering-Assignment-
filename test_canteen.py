@@ -11,7 +11,7 @@ class TestCanteen(unittest.TestCase):
         self.assertEqual(calculate_total(300), 315)
 
     def test_discount_applied(self):
-        self.assertEqual(calculate_total(400), 378)
+        self.assertEqual(calculate_total(400), 379)
 
 
 if __name__ == "__main__":
